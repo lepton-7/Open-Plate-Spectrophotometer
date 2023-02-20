@@ -1,0 +1,204 @@
+Source:,C:\School stuff\Bagby Lab\Projects\OPSpec\kicad\OPSpec_v0.0.2\OPSpec_v0.0.2.kicad_sch,,,,,,,,,,,
+Date:,18/07/2022 15:21,,,,,,,,,,,
+Tool:,Eeschema (6.0.5),,,,,,,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,
+Component Count:,153,,,,,,,,,,,
+,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock
+1,1,A1,Arduino_Nano_v3.x,MCU_Module:Arduino_Nano_v3.x,Module:Arduino_Nano,http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf,,,,,,
+2,4,"A2, A3, A4, A5",TL074IDT,Amplifier_Operational:TL074IDT,SamacSys_Parts:SOIC127P600X175-14N,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000489.pdf,"OP Amp Quad GP +/- 18V SOIC14 STMicroelectronics TL074IDT Quad Operational Amplifier, 3MHz, 14-Pin SO",1.75,STMicroelectronics,TL074IDT,511-TL074IDT,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TL074IDT?qs=xiMLMHqF5JUaM%252BCWVyDQFA%3D%3D
+3,2,"C1, C3",22uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+4,1,C2,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+5,1,C4,100nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+6,1,C5,560p,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+7,2,"C6, C9",10uF,Device:C_Polarized_Small,Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I,~,,,,,,
+8,1,C7,100uF,Device:C_Polarized_Small,Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U,~,,,,,,
+9,1,C8,2n2F,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+10,16,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16",GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+11,16,"D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32",RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+12,8,"H1, H2, H3, H4, H5, H6, H7, H8",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+13,1,IC1,AP62301Z6-7,SamacSys_Parts:AP62301Z6-7,SamacSys_Parts:SOTFL50P162X60-6N,https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf,"DCDC CONV HV BUCK SOT563 T&R 3K 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER",0.6,Diodes Inc.,AP62301Z6-7,621-AP62301Z6-7,https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP62301Z6-7?qs=7MVldsJ5UawPLFx7TLBzhA%3D%3D
+14,1,IC2,"TA75S558F,LF","SamacSys_Parts:TA75S558F,LF",SamacSys_Parts:TA75S558FLF,https://toshiba.semicon-storage.com/info/docget.jsp?did=20986&prodName=TA75S558F,Operational Amplifiers - Op Amps Bipolar Op-Amp,1.4,Toshiba,"TA75S558F,LF",757-TA75S558FLF,https://www.mouser.co.uk/ProductDetail/Toshiba/TA75S558FLF?qs=lX6dEUlT%252BgcRNUil8WoaRA%3D%3D
+15,1,IC3,ADR4550BRZ,SamacSys_Parts:ADR4550BRZ,SamacSys_Parts:SOIC127P600X175-8N,http://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf,"Analog Devices ADR4550BRZ, Series Voltage Reference 5V, +/-0.02% 15 V max., 8-Pin SOIC",1.75,Analog Devices,ADR4550BRZ,584-ADR4550BRZ,https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADR4550BRZ?qs=WIvQP4zGangF4jmrnlRDgA%3D%3D
+16,1,IC4,LT1054IPE4,SamacSys_Parts:LT1054IPE4,SamacSys_Parts:DIP794W53P254L959H508Q8N,https://www.ti.com/lit/ds/symlink/lt1054.pdf?ts=1606982687233&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLT1054IP%2526keyMatch%253DLT1054IP%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN,Switching Voltage Regulators Switched-Capacitor Voltage Converter,5.08,Texas Instruments,LT1054IPE4,595-LT1054IPE4,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LT1054IPE4?qs=paYhMW8qfivWYjyBPd45bA%3D%3D
+17,1,J1,163-179PH-EX,SamacSys_Parts:163-179PH-EX,SamacSys_Parts:163179PHEX,https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf,DC Power Connectors PCB 2.1MM,11,Kobiconn,163-179PH-EX,163-179PH-EX,https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D
+18,1,J2,BASE_INTERFACE,Connector:Conn_01x07_Male,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,~,,,,,,
+19,1,J3,BASE_ADC_CH,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,,,,
+20,1,J4,TOP_INTERFACE,Connector:Conn_01x07_Male,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,~,,,,,,
+21,1,J5,TOP_ADC_CH,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,,,,
+22,1,L1,3.3uH,SamacSys_Parts:MAKK2016T3R3M,SamacSys_Parts:INDPM2016X100N,,Fixed Inductors 0806 3.3uH 255mOhms +/-20% 1150A HiCur,1,TAIYO YUDEN,MAKK2016T3R3M,963-MAKK2016T3R3M,https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/MAKK2016T3R3M?qs=Z6svWd%2FY2UTQY1%2FASu%252BfUw%3D%3D
+23,10,"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q11, Q12",NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+24,2,"Q9, Q10",NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+25,16,"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16",51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+26,12,"R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R47, R48",150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+27,2,"R27, R28",4.7k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+28,1,R29,52.3k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+29,9,"R30, R51, R52, R53, R54, R55, R56, R57, R58",10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+30,16,"R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46",2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+31,1,R49,88k7,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+32,1,R50,1k1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+33,1,R59,102k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+34,1,R60,20k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+35,16,"T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16",SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+36,1,U1,ADS7828,Analog_ADC:ADS7828,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,http://www.ti.com/lit/ds/symlink/ads7828.pdf,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Individual Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock
+,,A1,Arduino_Nano_v3.x,MCU_Module:Arduino_Nano_v3.x,Module:Arduino_Nano,http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf,,,,,,
+,,A2,TL074IDT,Amplifier_Operational:TL074IDT,SamacSys_Parts:SOIC127P600X175-14N,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000489.pdf,"OP Amp Quad GP +/- 18V SOIC14 STMicroelectronics TL074IDT Quad Operational Amplifier, 3MHz, 14-Pin SO",1.75,STMicroelectronics,TL074IDT,511-TL074IDT,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TL074IDT?qs=xiMLMHqF5JUaM%252BCWVyDQFA%3D%3D
+,,A3,TL074IDT,Amplifier_Operational:TL074IDT,SamacSys_Parts:SOIC127P600X175-14N,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000489.pdf,"OP Amp Quad GP +/- 18V SOIC14 STMicroelectronics TL074IDT Quad Operational Amplifier, 3MHz, 14-Pin SO",1.75,STMicroelectronics,TL074IDT,511-TL074IDT,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TL074IDT?qs=xiMLMHqF5JUaM%252BCWVyDQFA%3D%3D
+,,A4,TL074IDT,Amplifier_Operational:TL074IDT,SamacSys_Parts:SOIC127P600X175-14N,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000489.pdf,"OP Amp Quad GP +/- 18V SOIC14 STMicroelectronics TL074IDT Quad Operational Amplifier, 3MHz, 14-Pin SO",1.75,STMicroelectronics,TL074IDT,511-TL074IDT,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TL074IDT?qs=xiMLMHqF5JUaM%252BCWVyDQFA%3D%3D
+,,A5,TL074IDT,Amplifier_Operational:TL074IDT,SamacSys_Parts:SOIC127P600X175-14N,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000489.pdf,"OP Amp Quad GP +/- 18V SOIC14 STMicroelectronics TL074IDT Quad Operational Amplifier, 3MHz, 14-Pin SO",1.75,STMicroelectronics,TL074IDT,511-TL074IDT,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TL074IDT?qs=xiMLMHqF5JUaM%252BCWVyDQFA%3D%3D
+,,C1,22uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C2,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C3,22uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C4,100nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C5,560p,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C6,10uF,Device:C_Polarized_Small,Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I,~,,,,,,
+,,C7,100uF,Device:C_Polarized_Small,Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U,~,,,,,,
+,,C8,2n2,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C9,10uF,Device:C_Polarized_Small,Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I,~,,,,,,
+,,D1,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D2,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D3,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D4,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D5,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D6,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D7,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D8,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D9,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D10,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D11,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D12,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D13,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D14,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D15,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D16,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D17,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D18,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D19,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D20,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D21,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D22,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D23,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D24,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D25,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D26,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D27,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D28,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D29,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D30,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D31,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,D32,RB521S30T5G,Device:D_Schottky,SamacSys_Parts:SODFL1608X70N,~,Schottky Diodes & Rectifiers SCHOTTKY DIODE,0.7,onsemi,RB521S30T5G,863-RB521S30T5G,https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D
+,,H1,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,H5,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,H6,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,H7,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,H8,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,,,,,,
+,,IC1,AP62301Z6-7,SamacSys_Parts:AP62301Z6-7,SamacSys_Parts:SOTFL50P162X60-6N,https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf,"DCDC CONV HV BUCK SOT563 T&R 3K 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER",0.6,Diodes Inc.,AP62301Z6-7,621-AP62301Z6-7,https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP62301Z6-7?qs=7MVldsJ5UawPLFx7TLBzhA%3D%3D
+,,IC2,"TA75S558F,LF","SamacSys_Parts:TA75S558F,LF",SamacSys_Parts:TA75S558FLF,https://toshiba.semicon-storage.com/info/docget.jsp?did=20986&prodName=TA75S558F,Operational Amplifiers - Op Amps Bipolar Op-Amp,1.4,Toshiba,"TA75S558F,LF",757-TA75S558FLF,https://www.mouser.co.uk/ProductDetail/Toshiba/TA75S558FLF?qs=lX6dEUlT%252BgcRNUil8WoaRA%3D%3D
+,,IC3,ADR4550BRZ,SamacSys_Parts:ADR4550BRZ,SamacSys_Parts:SOIC127P600X175-8N,http://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf,"Analog Devices ADR4550BRZ, Series Voltage Reference 5V, +/-0.02% 15 V max., 8-Pin SOIC",1.75,Analog Devices,ADR4550BRZ,584-ADR4550BRZ,https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADR4550BRZ?qs=WIvQP4zGangF4jmrnlRDgA%3D%3D
+,,IC4,LT1054IPE4,SamacSys_Parts:LT1054IPE4,SamacSys_Parts:DIP794W53P254L959H508Q8N,https://www.ti.com/lit/ds/symlink/lt1054.pdf?ts=1606982687233&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLT1054IP%2526keyMatch%253DLT1054IP%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN,Switching Voltage Regulators Switched-Capacitor Voltage Converter,5.08,Texas Instruments,LT1054IPE4,595-LT1054IPE4,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LT1054IPE4?qs=paYhMW8qfivWYjyBPd45bA%3D%3D
+,,J1,163-179PH-EX,SamacSys_Parts:163-179PH-EX,SamacSys_Parts:163179PHEX,https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf,DC Power Connectors PCB 2.1MM,11,Kobiconn,163-179PH-EX,163-179PH-EX,https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D
+,,J2,BASE_INTERFACE,Connector:Conn_01x07_Male,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,~,,,,,,
+,,J3,BASE_ADC_CH,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,,,,
+,,J4,TOP_INTERFACE,Connector:Conn_01x07_Male,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,~,,,,,,
+,,J5,TOP_ADC_CH,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,,,,
+,,L1,3.3uH,SamacSys_Parts:MAKK2016T3R3M,SamacSys_Parts:INDPM2016X100N,,Fixed Inductors 0806 3.3uH 255mOhms +/-20% 1150A HiCur,1,TAIYO YUDEN,MAKK2016T3R3M,963-MAKK2016T3R3M,https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/MAKK2016T3R3M?qs=Z6svWd%2FY2UTQY1%2FASu%252BfUw%3D%3D
+,,Q1,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q2,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q3,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q4,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q5,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q6,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q7,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q8,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q9,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q10,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q11,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q12,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,R1,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R2,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R3,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R4,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R5,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R6,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R7,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R8,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R9,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R10,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R11,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R12,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R13,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R14,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R15,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R16,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R17,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R18,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R19,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R20,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R21,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R22,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R23,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R24,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R25,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R26,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R27,4.7k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R28,4.7k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R29,52.3k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R30,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R31,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R32,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R33,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R34,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R35,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R36,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R37,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R38,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R39,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R40,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R41,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R42,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R43,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R44,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R45,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R46,2M55,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R47,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R48,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R49,88k7,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R50,1k1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R51,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R52,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R53,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R54,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R55,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R56,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R57,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R58,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R59,102k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R60,20k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,T1,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T2,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T3,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T4,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T5,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T6,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T7,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T8,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T9,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T10,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T11,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T12,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T13,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T14,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T15,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,T16,SFH2716 A01,Device:D_Photo,SamacSys_Parts:SFH2716,~,,,,,,
+,,U1,ADS7828,Analog_ADC:ADS7828,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,http://www.ti.com/lit/ds/symlink/ads7828.pdf,,,,,,

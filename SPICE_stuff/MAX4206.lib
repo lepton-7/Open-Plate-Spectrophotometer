@@ -1,0 +1,404 @@
+* Copyright (C) Maxim Integrated Products, Inc., All Rights Reserved.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense,
+* and/or sell copies of the Software, and to permit persons to whom the
+* Software is furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included
+* in all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+* MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+* IN NO EVENT SHALL MAXIM INTEGRATED BE LIABLE FOR ANY CLAIM, DAMAGES
+* OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+* ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+* OTHER DEALINGS IN THE SOFTWARE.
+*
+* Except as contained in this notice, the name of Maxim Integrated
+* Products, Inc. shall not be used except as stated in the Maxim Integrated
+* Products, Inc. Branding Policy.
+*
+* The mere transfer of this software does not imply any licenses
+* of trade secrets, proprietary technology, copyrights, patents,
+* trademarks, maskwork rights, or any other form of intellectual
+* property whatsoever. Maxim Integrated Products, Inc. retains all
+* ownership rights.
+*******************************************************************************
+* The MAX4206 logarithmic amplifier computes the log ratio of an input current relative to a reference current and
+* provides a corresponding voltage output with a default 0.25V/decade scale factor.
+******************************************************************************************************************
+.subckt MAX4206  REFVOUT GND VEE  LOGV1 OSADJ SCALE LOGV2 VCC REFISET CMVOUT REFIOUT REFIIN LOGIIN CMVIN 
+*                   |     |   |     |     |     |     |    |     |       |      |      |      |      |  
+*                   |     |   |     |     |     |     |    |     |       |      |      |      |      Common-Mode Voltage Input
+*                   |     |   |     |     |     |     |    |     |       |      |      |      |
+*                   |     |   |     |     |     |     |    |     |       |      |      |      Current Input to Logarithmic Amplifier
+*                   |     |   |     |     |     |     |    |     |       |      |      | 
+*                   |     |   |     |     |     |     |    |     |       |      |      Current Reference Input
+*                   |     |   |     |     |     |     |    |     |       |      | 
+*                   |     |   |     |     |     |     |    |     |       |      Current Reference Output
+*                   |     |   |     |     |     |     |    |     |       | 
+*                   |     |   |     |     |     |     |    |     |       0.5V Common-Mode Voltage Reference Output
+*                   |     |   |     |     |     |     |    |     |
+*                   |     |   |     |     |     |     |    |     Current Reference Adjust Input
+*                   |     |   |     |     |     |     |    |
+*                   |     |   |     |     |     |     |    Positive Power Supply
+*                   |     |   |     |     |     |     | 
+*                   |     |   |     |     |     |     Logarithmic Amplifier Voltage Output 2
+*                   |     |   |     |     |     |       
+*                   |     |   |     |     |     Scale Factor Input
+*                   |     |   |     |     | 
+*                   |     |   |     |     Offset Adjust Input
+*                   |     |   |     |
+*                   |     |   |     Logarithmic Amplifier Voltage Output 1
+*                   |     |   |
+*                   |     |   Negative Power Supply
+*                   |     |
+*                   |     Ground  
+*                   |     
+*                   1.238V Reference Voltage Output  
+*
+* Date of model creation: 
+*		Oct.10,2012
+*
+* Revision History: 
+* 		Version 0
+*       Version 1
+*
+* Recommendations:
+*     	Use SIMETRIX (or SPICE 2G6; other simulators may require translation)
+*     	For a quick, effective design, use a combination of: data sheet
+* 	    specs, bench testing, and simulations with this macromodel
+*       For PSpice .options ADVCONV is used for convergence
+*		
+* Supported:
+*		VLOGV1 Vs ILOG with IREF 10nA, Ideal Transfer Function with Varying IREF, Current Reference Output Voltage, DC value of Reference Load Transient Response, Reference Output Voltage Vs Load Current Response, Supply Current Vs Supply Voltage 
+*		Model works only at temperature 27 degree celsius
+*
+* Not Supported:
+*       This model does not operate other than 27 degree celsius
+*     		
+* Known Discrepancies in Model vs. Datasheet:
+*       Small Signal Unity Gain Bandwidth mismatches from Datasheet
+*
+*********************************************************************************************************************** 
+X_oplog VCC VEE LOGIIN CMVIN out1 OPAMP1
+X_opref VCC VEE REFIIN CMVIN out2 OPAMP1
+Q1 LOGIIN out1 GND QX
+Q2 REFIIN out2 GND QX
+.model QX NPN(IS=3e-16 BF=173)
+Elg1 LOGV1 GND VALUE={(V(out1)-V(out2))/238.2256*1000}
+X_os_sc VCC GND OSADJ SCALE LOGV2 OPAMP2
+Vrefi refi GND 0.5
+Vref1 refi REFISET 0
+Frefi GND REFIOUT Vref1 1
+Vcmv CMVOUT GND 0.5
+Vref REFVOUT GND 1.238
+.ends MAX4206 
+*****************************************current mirror
+.subckt c_mirror VCC GND REFISET 
+X_op3 VCC GND CMVOUT REFISET out3 OPAMP3
+Ro3 out3 GND 100k
+Vin+ CMVOUT GND 0.5
+.ends c_mirror 
+*****************************************log function
+.subckt log in gnd out
+E1 out gnd VALUE={(log(V(in)))/(log(10))}
+.ends log 
+*****************************************Opamp1
+.SUBCKT OPAMP1 10 18 17 15 201
+**************************************************
+*    17 = IN+
+*    18 = V-
+*    15 = IN-
+*    201 = OUT
+*    10 = V+
+***************
+*INPUT STAGE
+VS1 10 11 0V
+GBIAS 11 12 304 100 468U 
+M1 13 16 12 11 MOSFET
+M2 14 15 12 11 MOSFET
+DBIAS 18 12 DY
+VOS 17 16  -1u
+RD1 13 18 1K    
+RD2 14 18 1K
+C1 13 14 2P
+CIN1 16 100 10P
+CIN2 15 100 10P     
+DIN1 16 11 DA
+DIN2 18 16 DA
+DIN3 15 11 DA
+DIN4 18 15 DA
+FSUP 18 10 VS1 1 
+**************
+*INPUT BIAS CURRENT 
+IBIAS1 12 16 -8.55P
+IBIAS2 12 15 -8.45P
+*GBIAS1 17 18 10 18 1p
+RID 15 16 1000G 
+**************
+**************************************************
+*GAIN STAGE 
+GA 25 100 14 13 15.2M  
+RO1 25 100 1.541k
+GB 26 100 25 100 400M
+RO2 26 100 2K
+*C02 26 100 3n
+EF 27 100 26 100 1
+CC 25 27 70P
+EF2 29 100 28 100 1   
+GC 100 28 26 100 52.16M
+RO3 28 100 2.7K
+CC2 25 29 1.4n
+RO4 28 30 20
+GCMPS 100 25 40 100 193.5U 
+**************
+*CURRENT LIMIT
+DP3 26 38 DY
+EP3 38 100 10 18 185M
+DP4 39 26 DY
+EP4 100 39 10 18 185M
+**************
+*INTERNAL GND
+EG1 100 18 10 18 0.5
+**************
+*VOLTAGE LIMITING
+VS2 30 31 0V
+*****
+DP1 30 32 DY 
+HP1 34 32 VS2 17.72m
+EP1 34 36 10 18 0.5
+VOFF1 100 36 12M
+*****
+DP2 33 30 DY
+HP2 35 33 VS2 14.43m
+EP2 37 35 10 18 5
+VOFF2 37 100 12.8M
+***************
+*CMRR
+RRR 40 100 1
+GCMR 40 100 12 18 39U
+*PSRR
+GPSR 100 40 10 18 55U
+***************
+*SUPPLY CURRENT
+ISUP 10 18 1m
+VIS5 31 400 0V
+*********************************
+D401 400 401 DY
+D402 402 400 DY
+D403 201 401 DY
+D404 402 201 DY
+I400 401 402 40m
+E103 103 18 10 18 1
+V304 304 100 0.6
+**************************************************
+.MODEL DA D(IS=100E-14 RS=0.5k)
+.MODEL MOSFET PMOS(VTO=-0.2 KP=29.3E-3 KF=92E-27 AF=0.8)
+*.MODEL MOSFET PMOS(VTO=-0.2 KP=29.3E-3)
+.MODEL DX D(IS=100E-14)
+.MODEL DY D(IS=100E-14 N=10M)
+.MODEL MOSFETP PMOS(VTO=-5.0  KP=88E-3 GAMMA=0.01)
+.MODEL MOSFETN NMOS(VTO=5  KP=88E-3 GAMMA=0.01)
+.MODEL QX PNP(BF=1.111E3)
+**************************************************
+.ENDS OPAMP1 
+*****************************************Opamp2
+.SUBCKT OPAMP2 10 18 17 15 201
+**************************************************
+*    17 = IN+
+*    18 = V-
+*    15 = IN-
+*    201 = OUT
+*    10 = V+
+***************
+*INPUT STAGE
+VS1 10 11 0V
+GBIAS 11 12 304 100 468U 
+M1 13 16 12 11 MOSFET
+M2 14 15 12 11 MOSFET
+DBIAS 18 12 DY
+VOS 17 16  -1u
+RD1 13 18 1K    
+RD2 14 18 1K
+C1 13 14 2P
+CIN1 16 100 10P
+CIN2 15 100 10P     
+DIN1 16 11 DA
+DIN2 18 16 DA
+DIN3 15 11 DA
+DIN4 18 15 DA
+FSUP 18 10 VS1 1 
+**************
+*INPUT BIAS CURRENT 
+IBIAS1 12 16 -8.55P
+IBIAS2 12 15 -8.45P
+RID 15 16 1000G 
+**************
+**************************************************
+*GAIN STAGE 
+GA 25 100 14 13 15.2M  
+RO1 25 100 1.541k
+GB 26 100 25 100 400M
+RO2 26 100 2K
+*C02 26 100 3n
+EF 27 100 26 100 1
+CC 25 27 70P
+EF2 29 100 28 100 1   
+GC 100 28 26 100 52.16M
+RO3 28 100 2.7K
+CC2 25 29 1.4n
+RO4 28 30 20
+GCMPS 100 25 40 100 193.5U 
+**************
+*CURRENT LIMIT
+DP3 26 38 DY
+EP3 38 100 10 18 185M
+DP4 39 26 DY
+EP4 100 39 10 18 185M
+**************
+*INTERNAL GND
+EG1 100 18 10 18 0.5
+**************
+*VOLTAGE LIMITING
+VS2 30 31 0V
+*****
+DP1 30 32 DY 
+HP1 34 32 VS2 17.72m
+EP1 34 36 10 18 0.5
+VOFF1 100 36 12M
+*****
+DP2 33 30 DY
+HP2 35 33 VS2 14.43m
+EP2 37 35 10 18 5
+VOFF2 37 100 12.8M
+***************
+*CMRR
+RRR 40 100 1
+GCMR 40 100 12 18 39U
+*PSRR
+GPSR 100 40 10 18 55U
+***************
+*SUPPLY CURRENT
+ISUP 10 18 1m
+VIS5 31 400 0V
+*********************************
+D401 400 401 DY
+D402 402 400 DY
+D403 201 401 DY
+D404 402 201 DY
+I400 401 402 40m
+E103 103 18 10 18 1
+V304 304 100 0.6
+**************************************************
+.MODEL DA D(IS=100E-14 RS=0.5k)
+.MODEL MOSFET PMOS(VTO=-0.2 KP=29.3E-3 KF=92E-27 AF=0.8)
+.MODEL DX D(IS=100E-14)
+.MODEL DY D(IS=100E-14 N=10M)
+.MODEL MOSFETP PMOS(VTO=-5.0  KP=88E-3 GAMMA=0.01)
+.MODEL MOSFETN NMOS(VTO=5  KP=88E-3 GAMMA=0.01)
+.MODEL QX PNP(BF=1.111E3)
+**************************************************
+.ENDS OPAMP2 
+*****************************************Opamp3
+.SUBCKT OPAMP3 10 18 17 15 201
+**************************************************
+*    17 = IN+
+*    18 = V-
+*    15 = IN-
+*    201 = OUT
+*    10 = V+
+***************
+*INPUT STAGE
+VS1 10 11 0V
+GBIAS 11 12 304 100 468U 
+M1 13 16 12 11 MOSFET
+M2 14 15 12 11 MOSFET
+DBIAS 18 12 DY
+VOS 17 16  -1u
+RD1 13 18 1K    
+RD2 14 18 1K
+C1 13 14 2P
+CIN1 16 100 10P
+CIN2 15 100 10P     
+DIN1 16 11 DA
+DIN2 18 16 DA
+DIN3 15 11 DA
+DIN4 18 15 DA
+FSUP 18 10 VS1 1 
+**************
+*INPUT BIAS CURRENT 
+IBIAS1 12 16 -8.55P
+IBIAS2 12 15 -8.45P
+*GBIAS1 17 18 10 18 1p
+RID 15 16 1000G 
+**************
+**************************************************
+*GAIN STAGE 
+GA 25 100 14 13 15.2M  
+RO1 25 100 1.541k
+GB 26 100 25 100 400M
+RO2 26 100 2K
+*C02 26 100 3n
+EF 27 100 26 100 1
+CC 25 27 70P
+EF2 29 100 28 100 1   
+GC 100 28 26 100 52.16M
+RO3 28 100 2.7K
+CC2 25 29 1.4n
+RO4 28 30 20
+GCMPS 100 25 40 100 193.5U 
+**************
+*CURRENT LIMIT
+DP3 26 38 DY
+EP3 38 100 10 18 185M
+DP4 39 26 DY
+EP4 100 39 10 18 185M
+**************
+*INTERNAL GND
+EG1 100 18 10 18 0.5
+**************
+*VOLTAGE LIMITING
+VS2 30 31 0V
+*****
+DP1 30 32 DY 
+HP1 34 32 VS2 17.72m
+EP1 34 36 10 18 0.5
+VOFF1 100 36 12M
+*****
+DP2 33 30 DY
+HP2 35 33 VS2 14.43m
+EP2 37 35 10 18 5
+VOFF2 37 100 12.8M
+***************
+*CMRR
+RRR 40 100 1
+GCMR 40 100 12 18 39U
+*PSRR
+GPSR 100 40 10 18 55U
+***************
+*SUPPLY CURRENT
+ISUP 10 18 1m
+VIS5 31 400 0V
+*********************************
+D401 400 401 DY
+D402 402 400 DY
+D403 201 401 DY
+D404 402 201 DY
+I400 401 402 40m
+E103 103 18 10 18 1
+V304 304 100 0.6
+**************************************************
+.MODEL DA D(IS=100E-14 RS=0.5k)
+.MODEL MOSFET PMOS(VTO=-0.2 KP=29.3E-3 KF=92E-27 AF=0.8)
+.MODEL DX D(IS=100E-14)
+.MODEL DY D(IS=100E-14 N=10M)
+.MODEL MOSFETP PMOS(VTO=-5.0  KP=88E-3 GAMMA=0.01)
+.MODEL MOSFETN NMOS(VTO=5  KP=88E-3 GAMMA=0.01)
+.MODEL QX PNP(BF=1.111E3)
+**************************************************
+.ENDS OPAMP3 

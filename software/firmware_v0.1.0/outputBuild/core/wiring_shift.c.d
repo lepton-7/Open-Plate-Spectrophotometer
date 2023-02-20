@@ -1,0 +1,7 @@
+c:\School\ stuff\Bagby\ Lab\Projects\OPSpec\software\firmware_v0.1.0\outputBuild\core\wiring_shift.c.o: \
+ D:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c \
+ D:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_private.h \
+ D:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h \
+ D:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\binary.h \
+ D:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs/pins_arduino.h \
+ d:\program\ files\ (x86)\arduino\hardware\arduino\avr\variants\standard\pins_arduino.h

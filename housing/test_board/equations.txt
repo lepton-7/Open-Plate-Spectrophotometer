@@ -1,0 +1,6 @@
+﻿"shellWall"= 2mm
+"fromLeftWall" = 10mm
+"fromTopWall"= 10mm
+"D2@Floor"=("shellWall" + "fromLeftWall")*2 + 148
+"D1@Floor"=("shellWall" + "fromTopWall")*2 + 106
+"alignmentHole" = 2.5mm

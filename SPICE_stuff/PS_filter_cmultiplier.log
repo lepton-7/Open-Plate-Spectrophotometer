@@ -1,0 +1,65 @@
+Circuit: * C:\School stuff\Bagby Lab\Projects\OPSpec\PS_filter_cmultiplier.asc
+
+WARNING: Less than two connections to node N010.  This node is used by V6.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+vernier = 0.5
+vernier = 0.25
+Gmin = 5.07481e-007
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.0833333
+Gmin = 4.7882e-007
+vernier = 0.111111
+Gmin = 3.74074e-007
+vernier = 0.148148
+vernier = 0.197531
+Gmin = 2.48003e-007
+vernier = 0.263374
+vernier = 0.351165
+Gmin = 1.29819e-007
+vernier = 0.46822
+Gmin = 4.77207e-008
+vernier = 0.624294
+vernier = 0.832392
+Gmin = 9.38395e-009
+vernier = 1
+Gmin = 1.0787e-009
+Gmin = 1.15825e-010
+Gmin = 1.24366e-011
+Gmin = 1.33537e-012
+Gmin = 1.43384e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:5)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:5)
+
+Date: Sun Dec 25 15:22:07 2022
+Total elapsed time: 0.342 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7216
+traniter = 6219
+tranpoints = 2358
+accept = 2035
+rejected = 323
+matrix size = 82
+fillins = 11
+solver = Normal
+Thread vector: 6.1/5.2[2] 6.5/3.1[2] 1.6/2.1[1] 0.3/1.2[1]  2592/500
+Matrix Compiler1: 5.37 KB object code size  1.0/1.4/[0.8]
+Matrix Compiler2: 6.69 KB object code size  0.7/1.1/[0.4]
+

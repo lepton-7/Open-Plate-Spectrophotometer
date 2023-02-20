@@ -1,0 +1,708 @@
+Source:,C:\School stuff\Bagby Lab\Projects\OPSpec\kicad\OPSpec_v0.1.0\OPSpec_v0.1.0.kicad_sch,,,,,,,,,,,
+Date:,25/11/2022 14:10,,,,,,,,,,,
+Tool:,Eeschema (6.0.5),,,,,,,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,
+Component Count:,661,,,,,,,,,,,
+,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock
+1,101,"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, C63, C64, C65, C66, C67, C68, C69, C70, C71, C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96, C98, C100, C105, C154, C174",1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+2,40,"C97, C99, C103, C106, C107, C108, C109, C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, C131, C132, C133, C134, C135, C136, C137, C138, C149, C151, C155, C156, C158, C161, C163, C164, C167, C169, C171, C173",100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+3,10,"C101, C102, C104, C150, C152, C157, C160, C166, C168, C172",10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+4,16,"C123, C124, C125, C126, C127, C128, C129, C130, C139, C140, C141, C142, C143, C144, C145, C146",100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+5,6,"C147, C148, C159, C162, C165, C170",470nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+6,1,C153,470pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+7,96,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51, D52, D53, D54, D55, D56, D57, D58, D59, D60, D61, D62, D63, D64, D65, D66, D67, D68, D69, D70, D71, D72, D73, D74, D75, D76, D77, D78, D79, D80, D81, D82, D83, D84, D85, D86, D87, D88, D89, D90, D91, D92, D93, D94, D95, D96",GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+8,8,"H1, H2, H3, H4, H5, H6, H7, H8",MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+9,3,"IC1, IC2, IC7","PCA9555APW,118","Interface_Expansion:PCA9555APW,118",SamacSys_Parts:SOP65P640X110-24N,http://www.nxp.com/docs/en/data-sheet/PCA9555A.pdf,"NXP - PCA9555APW,118 - I/O EXPANDER, 16BIT, 400KHZ, TSSOP-24",1.1,NXP,"PCA9555APW,118",771-PCA9555APW118,https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9555APW118?qs=5C9Q4QJFsuPmpoGpn%2FKoIQ%3D%3D
+10,1,IC3,MCP1801T-6002I_OT,SamacSys_Parts:MCP1801T-6002I_OT,SamacSys_Parts:SOT95P270X145-5N,https://www.mouser.in/datasheet/2/268/22051D-474537.pdf,LDO Voltage Regulators Hi PSRR 150 mA LDO Vin 10V maxVout 6.0V,1.45,Microchip,MCP1801T-6002I/OT,579-MCP1801T-6002IOT,https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1801T-6002I-OT?qs=aE5D7Pt6ky2EwNge7jBPcQ%3D%3D
+11,3,"IC4, IC5, IC6",TAR5S50TE85LF,Regulator_Linear:TAR5S50TE85LF,SamacSys_Parts:SMV_1,https://toshiba.semicon-storage.com/info/docget.jsp?did=766&prodName=TAR5S40,LDO Voltage Regulators Point Reg SGL output 200mA 15V 5V out,,Toshiba,TAR5S50TE85LF,757-TAR5S50TE85LF,https://www.mouser.co.uk/ProductDetail/Toshiba/TAR5S50TE85LF?qs=lQAVKuKFhkISS%252B6HLQK7hg%3D%3D
+12,1,J1,BASE_INTERFACE,:Conn_01x14_Female_1,Connector_FFC-FPC:TE_1-1734839-4_1x14-1MP_P0.5mm_Horizontal,~,,,,,,
+13,1,J2,163-179PH-EX,Connector:Barrel_Jack_Switch,Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002,~,,,,,,
+14,1,J3,Arduino,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,,,,,,
+15,1,J4,TOP_INTERFACE,Connector:Conn_01x14_Female,Connector_FFC-FPC:TE_1-1734839-4_1x14-1MP_P0.5mm_Horizontal,~,,,,,,
+16,1,L1,3.3uH,SamacSys_Parts:MAKK2016T3R3M,SamacSys_Parts:INDPM2016X100N,,Fixed Inductors 0806 3.3uH 255mOhms +/-20% 1150A HiCur,1,TAIYO YUDEN,MAKK2016T3R3M,963-MAKK2016T3R3M,https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/MAKK2016T3R3M?qs=Z6svWd%2FY2UTQY1%2FASu%252BfUw%3D%3D
+17,8,"LA1, LA2, LA3, LA4, LA5, LA6, LA7, LA8",MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+18,12,"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12",NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+19,20,"Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28, Q29, Q30, Q31, Q32",NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+20,6,"Q33, Q34, Q35, Q36, Q37, Q38",2SCR502UBTL,Transistor_BJT:2SCR502UBTL,SamacSys_Parts:SOTFL65P210X105-3N,https://componentsearchengine.com/Datasheets/1/2SCR502UBTL.pdf,Signal Transistor NPN 30V 500mA UMT3F,1.05,ROHM Semiconductor,2SCR502UBTL,755-2SCR502UBTL,https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR502UBTL
+21,96,"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96",51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+22,32,"R97, R99, R101, R103, R105, R107, R109, R111, R113, R115, R117, R119, R129, R130, R131, R132, R133, R134, R135, R136, R142, R144, R146, R148, R150, R152, R154, R156, R158, R160, R162, R164",100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+23,32,"R98, R100, R102, R104, R106, R108, R110, R112, R114, R116, R118, R120, R121, R122, R123, R124, R125, R126, R127, R128, R141, R143, R145, R147, R149, R151, R153, R155, R157, R159, R161, R163",150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+24,27,"R137, R138, R173, R174, R175, R176, R177, R178, R179, R180, R211, R212, R213, R214, R215, R216, R217, R218, R219, R220, R221, R222, R223, R224, R225, R226, R227",10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+25,2,"R139, R140",4.7k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+26,8,"R165, R166, R167, R168, R169, R170, R171, R172",38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+27,8,"R181, R182, R183, R184, R185, R186, R187, R188",499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+28,16,"R189, R190, R191, R192, R193, R194, R195, R196, R197, R198, R199, R200, R201, R202, R203, R204",100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+29,6,"R205, R206, R207, R208, R209, R210",511,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+30,96,"T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60, T61, T62, T63, T64, T65, T66, T67, T68, T69, T70, T71, T72, T73, T74, T75, T76, T77, T78, T79, T80, T81, T82, T83, T84, T85, T86, T87, T88, T89, T90, T91, T92, T93, T94, T95, T96",S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+31,1,U1,AP63205WU,Regulator_Switching:AP63205WU,Package_TO_SOT_SMD:TSOT-23-6,https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf,,,,,,
+32,1,U2,ADS7828,Analog_ADC:ADS7828,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,http://www.ti.com/lit/ds/symlink/ads7828.pdf,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Individual Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock
+,,C1,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C2,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C3,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C4,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C5,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C6,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C7,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C8,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C9,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C10,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C11,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C12,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C13,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C14,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C15,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C16,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C17,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C18,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C19,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C20,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C21,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C22,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C23,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C24,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C25,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C26,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C27,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C28,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C29,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C30,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C31,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C32,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C33,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C34,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C35,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C36,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C37,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C38,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C39,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C40,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C41,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C42,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C43,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C44,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C45,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C46,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C47,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C48,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C49,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C50,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C51,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C52,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C53,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C54,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C55,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C56,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C57,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C58,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C59,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C60,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C61,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C62,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C63,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C64,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C65,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C66,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C67,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C68,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C69,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C70,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C71,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C72,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C73,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C74,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C75,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C76,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C77,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C78,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C79,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C80,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C81,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C82,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C83,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C84,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C85,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C86,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C87,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C88,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C89,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C90,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C91,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C92,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C93,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C94,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C95,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C96,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C97,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C98,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C99,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C100,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C101,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C102,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C103,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C104,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C105,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C106,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C107,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C108,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C109,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C110,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C111,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C112,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C113,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C114,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C115,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C116,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C117,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C118,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C119,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C120,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C121,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C122,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C123,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C124,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C125,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C126,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C127,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C128,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C129,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C130,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C131,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C132,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C133,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C134,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C135,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C136,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C137,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C138,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C139,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C140,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C141,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C142,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C143,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C144,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C145,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C146,100pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C147,470nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C148,470nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C149,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C150,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C151,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C152,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C153,470pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C154,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C155,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C156,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C157,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C158,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C159,470nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C160,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C161,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C162,470nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C163,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C164,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C165,470nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C166,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C167,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C168,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C169,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C170,470nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C171,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C172,10uF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,,,,,
+,,C173,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,C174,1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,,,,,,
+,,D1,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D2,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D3,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D4,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D5,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D6,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D7,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D8,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D9,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D10,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D11,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D12,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D13,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D14,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D15,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D16,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D17,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D18,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D19,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D20,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D21,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D22,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D23,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D24,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D25,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D26,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D27,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D28,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D29,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D30,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D31,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D32,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D33,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D34,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D35,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D36,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D37,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D38,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D39,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D40,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D41,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D42,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D43,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D44,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D45,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D46,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D47,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D48,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D49,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D50,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D51,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D52,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D53,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D54,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D55,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D56,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D57,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D58,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D59,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D60,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D61,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D62,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D63,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D64,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D65,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D66,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D67,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D68,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D69,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D70,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D71,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D72,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D73,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D74,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D75,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D76,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D77,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D78,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D79,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D80,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D81,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D82,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D83,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D84,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D85,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D86,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D87,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D88,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D89,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D90,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D91,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D92,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D93,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D94,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D95,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,D96,GR_JTLPS1.23-G7H4-45-1-150-R33,LED:GR_JTLPS1.23-G7H4-45-1-150-R33,SamacSys_Parts:GRJTLPS123G7H4451150R33,~,High Power LEDs - Single Color Red DURIS E 2835,0.8,OSRAM,GR JTLPS1.23-G7H4-45-1-150-R33,720-GRJTLPS123A1052,https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GR-JTLPS123-G7H4-45-1-150-R33?qs=T94vaHKWudSzDFhf8Pfs5w%3D%3D
+,,H1,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,H2,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,H3,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,H4,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,H5,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,H6,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,H7,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,H8,MountingHole,Mechanical:MountingHole_Pad,MountingHole:MountingHole_4.3mm_M4_Pad,~,,,,,,
+,,IC1,"PCA9555APW,118","Interface_Expansion:PCA9555APW,118",SamacSys_Parts:SOP65P640X110-24N,http://www.nxp.com/docs/en/data-sheet/PCA9555A.pdf,"NXP - PCA9555APW,118 - I/O EXPANDER, 16BIT, 400KHZ, TSSOP-24",1.1,NXP,"PCA9555APW,118",771-PCA9555APW118,https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9555APW118?qs=5C9Q4QJFsuPmpoGpn%2FKoIQ%3D%3D
+,,IC2,"PCA9555APW,118","Interface_Expansion:PCA9555APW,118",SamacSys_Parts:SOP65P640X110-24N,http://www.nxp.com/docs/en/data-sheet/PCA9555A.pdf,"NXP - PCA9555APW,118 - I/O EXPANDER, 16BIT, 400KHZ, TSSOP-24",1.1,NXP,"PCA9555APW,118",771-PCA9555APW118,https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9555APW118?qs=5C9Q4QJFsuPmpoGpn%2FKoIQ%3D%3D
+,,IC3,MCP1801T-6002I_OT,SamacSys_Parts:MCP1801T-6002I_OT,SamacSys_Parts:SOT95P270X145-5N,https://www.mouser.in/datasheet/2/268/22051D-474537.pdf,LDO Voltage Regulators Hi PSRR 150 mA LDO Vin 10V maxVout 6.0V,1.45,Microchip,MCP1801T-6002I/OT,579-MCP1801T-6002IOT,https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1801T-6002I-OT?qs=aE5D7Pt6ky2EwNge7jBPcQ%3D%3D
+,,IC4,TAR5S50TE85LF,Regulator_Linear:TAR5S50TE85LF,SamacSys_Parts:SMV_1,https://toshiba.semicon-storage.com/info/docget.jsp?did=766&prodName=TAR5S40,LDO Voltage Regulators Point Reg SGL output 200mA 15V 5V out,,Toshiba,TAR5S50TE85LF,757-TAR5S50TE85LF,https://www.mouser.co.uk/ProductDetail/Toshiba/TAR5S50TE85LF?qs=lQAVKuKFhkISS%252B6HLQK7hg%3D%3D
+,,IC5,TAR5S50TE85LF,Regulator_Linear:TAR5S50TE85LF,SamacSys_Parts:SMV_1,https://toshiba.semicon-storage.com/info/docget.jsp?did=766&prodName=TAR5S40,LDO Voltage Regulators Point Reg SGL output 200mA 15V 5V out,,Toshiba,TAR5S50TE85LF,757-TAR5S50TE85LF,https://www.mouser.co.uk/ProductDetail/Toshiba/TAR5S50TE85LF?qs=lQAVKuKFhkISS%252B6HLQK7hg%3D%3D
+,,IC6,TAR5S50TE85LF,Regulator_Linear:TAR5S50TE85LF,SamacSys_Parts:SMV_1,https://toshiba.semicon-storage.com/info/docget.jsp?did=766&prodName=TAR5S40,LDO Voltage Regulators Point Reg SGL output 200mA 15V 5V out,,Toshiba,TAR5S50TE85LF,757-TAR5S50TE85LF,https://www.mouser.co.uk/ProductDetail/Toshiba/TAR5S50TE85LF?qs=lQAVKuKFhkISS%252B6HLQK7hg%3D%3D
+,,IC7,"PCA9555APW,118","Interface_Expansion:PCA9555APW,118",SamacSys_Parts:SOP65P640X110-24N,http://www.nxp.com/docs/en/data-sheet/PCA9555A.pdf,"NXP - PCA9555APW,118 - I/O EXPANDER, 16BIT, 400KHZ, TSSOP-24",1.1,NXP,"PCA9555APW,118",771-PCA9555APW118,https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9555APW118?qs=5C9Q4QJFsuPmpoGpn%2FKoIQ%3D%3D
+,,J1,BASE_INTERFACE,:Conn_01x14_Female_1,Connector_FFC-FPC:TE_1-1734839-4_1x14-1MP_P0.5mm_Horizontal,~,,,,,,
+,,J2,163-179PH-EX,Connector:Barrel_Jack_Switch,Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002,~,,,,,,
+,,J3,Arduino,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,,,,,,
+,,J4,TOP_INTERFACE,Connector:Conn_01x14_Female,Connector_FFC-FPC:TE_1-1734839-4_1x14-1MP_P0.5mm_Horizontal,~,,,,,,
+,,L1,3.3uH,SamacSys_Parts:MAKK2016T3R3M,SamacSys_Parts:INDPM2016X100N,,Fixed Inductors 0806 3.3uH 255mOhms +/-20% 1150A HiCur,1,TAIYO YUDEN,MAKK2016T3R3M,963-MAKK2016T3R3M,https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/MAKK2016T3R3M?qs=Z6svWd%2FY2UTQY1%2FASu%252BfUw%3D%3D
+,,LA1,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,LA2,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,LA3,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,LA4,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,LA5,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,LA6,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,LA7,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,LA8,MAX4206ETE+T,Amplifier_Operational:MAX4206ETE+T,SamacSys_Parts:QFN65P400X400X80-17N,https://datasheets.maximintegrated.com/en/ds/MAX4206.pdf,Logarithmic Amplifiers Precision Transimpedance Logarithmic Amplifier with Over 5 Decades of Dynamic Range,0.8,Maxim Integrated,MAX4206ETE+T,700-MAX4206ETE+T,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4206ETE%2bT?qs=1eQvB6Dk1vihFrrDtkPdrA%3D%3D
+,,Q1,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q2,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q3,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q4,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q5,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q6,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q7,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q8,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q9,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q10,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q11,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q12,NTK3134NT5G,Device:Q_NMOS_GSD,SamacSys_Parts:NTK3134NT5G,https://www.onsemi.com/pdf/datasheet/ntk3134n-d.pdf,N-Channel 20 V 750mA (Ta) 310mW (Ta) Surface Mount SOT-723,0.55,onsemi,NTK3134NT5G,863-NTK3134NT5G,https://www.mouser.co.uk/ProductDetail/onsemi/NTK3134NT5G?qs=g97OBWmz8%2FWdltr4eSy1YA%3D%3D
+,,Q13,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q14,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q15,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q16,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q17,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q18,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q19,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q20,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q21,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q22,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q23,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q24,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q25,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q26,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q27,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q28,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q29,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q30,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q31,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q32,NXV75UP,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,,,,,,
+,,Q33,2SCR502UBTL,Transistor_BJT:2SCR502UBTL,SamacSys_Parts:SOTFL65P210X105-3N,https://componentsearchengine.com/Datasheets/1/2SCR502UBTL.pdf,Signal Transistor NPN 30V 500mA UMT3F,1.05,ROHM Semiconductor,2SCR502UBTL,755-2SCR502UBTL,https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR502UBTL
+,,Q34,2SCR502UBTL,Transistor_BJT:2SCR502UBTL,SamacSys_Parts:SOTFL65P210X105-3N,https://componentsearchengine.com/Datasheets/1/2SCR502UBTL.pdf,Signal Transistor NPN 30V 500mA UMT3F,1.05,ROHM Semiconductor,2SCR502UBTL,755-2SCR502UBTL,https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR502UBTL
+,,Q35,2SCR502UBTL,Transistor_BJT:2SCR502UBTL,SamacSys_Parts:SOTFL65P210X105-3N,https://componentsearchengine.com/Datasheets/1/2SCR502UBTL.pdf,Signal Transistor NPN 30V 500mA UMT3F,1.05,ROHM Semiconductor,2SCR502UBTL,755-2SCR502UBTL,https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR502UBTL
+,,Q36,2SCR502UBTL,Transistor_BJT:2SCR502UBTL,SamacSys_Parts:SOTFL65P210X105-3N,https://componentsearchengine.com/Datasheets/1/2SCR502UBTL.pdf,Signal Transistor NPN 30V 500mA UMT3F,1.05,ROHM Semiconductor,2SCR502UBTL,755-2SCR502UBTL,https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR502UBTL
+,,Q37,2SCR502UBTL,Transistor_BJT:2SCR502UBTL,SamacSys_Parts:SOTFL65P210X105-3N,https://componentsearchengine.com/Datasheets/1/2SCR502UBTL.pdf,Signal Transistor NPN 30V 500mA UMT3F,1.05,ROHM Semiconductor,2SCR502UBTL,755-2SCR502UBTL,https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR502UBTL
+,,Q38,2SCR502UBTL,Transistor_BJT:2SCR502UBTL,SamacSys_Parts:SOTFL65P210X105-3N,https://componentsearchengine.com/Datasheets/1/2SCR502UBTL.pdf,Signal Transistor NPN 30V 500mA UMT3F,1.05,ROHM Semiconductor,2SCR502UBTL,755-2SCR502UBTL,https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR502UBTL
+,,R1,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R2,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R3,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R4,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R5,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R6,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R7,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R8,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R9,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R10,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R11,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R12,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R13,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R14,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R15,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R16,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R17,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R18,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R19,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R20,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R21,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R22,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R23,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R24,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R25,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R26,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R27,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R28,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R29,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R30,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R31,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R32,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R33,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R34,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R35,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R36,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R37,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R38,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R39,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R40,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R41,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R42,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R43,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R44,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R45,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R46,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R47,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R48,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R49,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R50,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R51,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R52,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R53,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R54,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R55,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R56,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R57,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R58,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R59,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R60,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R61,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R62,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R63,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R64,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R65,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R66,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R67,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R68,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R69,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R70,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R71,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R72,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R73,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R74,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R75,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R76,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R77,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R78,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R79,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R80,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R81,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R82,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R83,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R84,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R85,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R86,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R87,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R88,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R89,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R90,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R91,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R92,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R93,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R94,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R95,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R96,51R1,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R97,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R98,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R99,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R100,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R101,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R102,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R103,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R104,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R105,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R106,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R107,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R108,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R109,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R110,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R111,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R112,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R113,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R114,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R115,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R116,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R117,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R118,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R119,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R120,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R121,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R122,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R123,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R124,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R125,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R126,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R127,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R128,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R129,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R130,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R131,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R132,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R133,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R134,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R135,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R136,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R137,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R138,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R139,4.7k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R140,4.7k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R141,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R142,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R143,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R144,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R145,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R146,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R147,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R148,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R149,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R150,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R151,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R152,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R153,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R154,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R155,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R156,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R157,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R158,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R159,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R160,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R161,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R162,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R163,150,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R164,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R165,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R166,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R167,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R168,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R169,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R170,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R171,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R172,38k3,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R173,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R174,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R175,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R176,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R177,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R178,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R179,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R180,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R181,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R182,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R183,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R184,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R185,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R186,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R187,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R188,499k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R189,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R190,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R191,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R192,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R193,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R194,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R195,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R196,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R197,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R198,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R199,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R200,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R201,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R202,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R203,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R204,100,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R205,511,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R206,511,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R207,511,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R208,511,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R209,511,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R210,511,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R211,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R212,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R213,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R214,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R215,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R216,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R217,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R218,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R219,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R220,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R221,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R222,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R223,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R224,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R225,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R226,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,R227,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,,,,,,
+,,T1,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T2,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T3,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T4,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T5,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T6,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T7,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T8,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T9,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T10,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T11,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T12,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T13,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T14,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T15,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T16,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T17,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T18,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T19,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T20,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T21,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T22,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T23,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T24,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T25,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T26,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T27,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T28,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T29,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T30,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T31,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T32,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T33,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T34,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T35,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T36,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T37,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T38,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T39,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T40,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T41,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T42,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T43,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T44,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T45,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T46,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T47,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T48,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T49,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T50,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T51,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T52,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T53,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T54,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T55,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T56,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T57,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T58,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T59,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T60,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T61,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T62,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T63,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T64,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T65,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T66,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T67,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T68,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T69,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T70,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T71,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T72,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T73,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T74,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T75,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T76,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T77,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T78,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T79,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T80,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T81,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T82,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T83,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T84,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T85,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T86,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T87,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T88,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T89,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T90,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T91,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T92,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T93,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T94,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T95,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,T96,S16392-01CT,Device:D_Photo,Diode_SMD:S16392-01CT,~,,,,,,
+,,U1,AP63205WU,Regulator_Switching:AP63205WU,Package_TO_SOT_SMD:TSOT-23-6,https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf,,,,,,
+,,U2,ADS7828,Analog_ADC:ADS7828,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,http://www.ti.com/lit/ds/symlink/ads7828.pdf,,,,,,
