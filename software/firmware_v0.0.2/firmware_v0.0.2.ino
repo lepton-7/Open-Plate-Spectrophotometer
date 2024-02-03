@@ -96,14 +96,14 @@ void loop()
     // blinkLEDs();
 }
 
-int readADCValue(int channel, int *convData, int idx)
+int readADCValue(byte channel, int *convData, int idx)
 {
     /**
      * @brief Commands a conversion and reads the value for the given
      * ADC channel into the array at the given index after concatenating into an int
      */
 
-    byte commandByte = (chAddr[channel] << 4) + 0b0100; // internal ref off and ADC conv ON
+    byte commandByte = (channel << 4) + 0b0100; // internal ref off and ADC conv ON
 
     Wire.beginTransmission(ADC);
     Wire.write(commandByte);

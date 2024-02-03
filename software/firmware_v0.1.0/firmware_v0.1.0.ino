@@ -27,7 +27,7 @@
 #define CONFIG1 0x07
 
 // additional parameters
-int ledOn = 100;  // in ms
+int ledOn = 5;   // in ms
 int deadTime = 1; // in ms - time between actions on different functional units
 
 // The ADC channel addresses in single-ended input mode arranged by index (A - H)
@@ -51,17 +51,11 @@ void setup()
     commandIO(ECOL, OUT0, 0x00, 0x00);    // output low for n-ch
     commandIO(ECOL, CONFIG0, 0x00, 0xF0); // pin config to output (1 = highZ-in)
 
-    Serial.println("Ecol set");
-
     commandIO(EROW, OUT0, 255, 255);  // output high for p-ch
     commandIO(EROW, CONFIG0, 0, 255); // pin config to output
 
-    Serial.println("Erow set");
-
     commandIO(DCOL, OUT0, 255, 255);         // output high for p-ch
     commandIO(DCOL, CONFIG0, 0, 0b11110000); // pin config to output
-
-    Serial.println("Dcol set");
 
     oneloop = true;
 
@@ -70,41 +64,7 @@ void setup()
 
 void loop()
 {
-    if (oneloop)
-    {
-
-        // for (int k = 0; k < 12; k++)
-        // {
-        //     addressDetCol(k, 1);
-        //     delay(3000);
-        // }
-        // addressDetCol(0, 1);
-
-        flushRaw();
-        // readSamples();
-        for (int k = 0; k < 20; k++)
-        {
-            readWell(11, 1);
-        }
-        // sendRaw();
-        // blinkLEDs(100);
-
-        // handleSerial();
-
-        // delay(500); // allow serial monitor to open
-        oneloop = false;
-    }
-    // Serial.println();
-    // readADCs();
-    // readDet();
-    // sendRaw();
-
-    // flushRaw();
-    // sendRaw();
-
-    // oneLoop = false;
-
-    // blinkLEDs();
+    handleSerial();
 }
 
 /**
@@ -113,21 +73,28 @@ void loop()
  */
 void handleSerial()
 {
+
     while (Serial.available() > 0)
     {
         char incomingCharacter = Serial.read();
         switch (incomingCharacter)
         {
         case '0':
+            flushRaw();
             readDark();
-            // sendRaw();
+            sendRaw();
+            Serial.flush();
+            break;
 
         case 'A':
+            flushRaw(); 
             readSamples();
             sendRaw();
+            break;
 
         case 'T':
-            blinkLEDs(200);
+            blinkLEDs(20);
+            break;
         }
     }
 }
@@ -184,8 +151,8 @@ void readSamples()
             delay(deadTime);
 
             // for debugging
-            Serial.print("raw[" + String(i) + "][" + j + "] is: ");
-            Serial.println(raw[i][j]);
+            // Serial.print("raw[" + String(i) + "][" + j + "] is: ");
+            // Serial.println(raw[i][j]);
         }
     }
 
@@ -211,8 +178,8 @@ void readWell(int col, int row)
     readADCValue(chAddr[row], raw[col], row);
 
     // for debugging
-    Serial.print("raw[" + String(col) + "][" + row + "] is: ");
-    Serial.println(raw[col][row], DEC);
+    // Serial.print("raw[" + String(col) + "][" + row + "] is: ");
+    // Serial.println(raw[col][row], DEC);
 
     // reset LEDs and detector switches to off state
     addressDetCol(0, 0); // all detectors off
@@ -254,35 +221,30 @@ void sendRaw()
  * @brief Commands a conversion and reads the value for the given
  * ADC channel into the array at the given index after concatenating into an int
  *
- * @param channel ADC channel to read from
+ * @param channel ADC channel to read from. 4-bit value address stored in a byte.
  * @param convData pointer to store conversion data
  * @param idx index at which to store the data
  * @return int
  */
-int readADCValue(int channel, unsigned int *convData, int idx)
+int readADCValue(byte channel, unsigned int *convData, int idx)
 {
 
-    byte commandByte = (chAddr[channel] << 4) + 0b1100; // internal ref on and ADC conv ON
+    byte commandByte = (channel << 4) + 0b1100; // internal ref on and ADC conv ON
 
     Wire.beginTransmission(ADC);
     Wire.write(commandByte);
     Wire.endTransmission();
 
-    delay(5); // let the ADC settle idk
+    delay(1); // let the ADC settle idk
 
     Wire.requestFrom(ADC, 2);
 
     // Get and store the conversion
-    unsigned int temp = Wire.read();
-    unsigned int t2 = Wire.read();
+    int temp = Wire.read();
+    int t2 = Wire.read();
 
-    unsigned int tot = (temp << 8) + t2;
-    // temp += Wire.read();
-    Serial.print(temp, BIN);
-    Serial.println(t2, BIN);
-
+    int tot = (temp << 8) + t2;
     convData[idx] = tot;
-    // convData[1] = Wire.read();
 }
 
 /**

@@ -1,5 +1,13 @@
 
+kicad/**/*backups
+kicad/**/*bak
+
+software/**/.vscode
+software/**/outputBuild
+
 *.prproj
-*.mp4
+Time lapse/*/raw
+Time lapse/Emitter - microscope/Emitter - microscope timelapse.mp4
+
 Thinkbox Project Fund/**/*
 Thinkbox Project Fund/*

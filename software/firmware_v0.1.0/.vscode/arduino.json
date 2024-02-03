@@ -1,8 +1,7 @@
 {
     "configuration": "cpu=atmega328old",
     "board": "arduino:avr:nano",
-    "programmer": "arduino:avrispmkii",
+    "programmer": "avrispmkii",
     "sketch": "firmware_v0.1.0.ino",
-    "output": "./outputBuild",
-    "port": "COM4"
+    "port": "COM3"
 }
