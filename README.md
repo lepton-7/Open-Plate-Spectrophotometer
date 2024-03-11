@@ -51,7 +51,7 @@ Converting current going through a photodiode into digital information is a two-
 </fig>
 
 The transfer function is also pretty simple for a TIA:
-$$ V*{out} = -I*{in}R_f $$
+$$ V_{out} = -I_{in}R_f $$
 
 This is implemented as:
 
