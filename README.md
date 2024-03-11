@@ -61,7 +61,7 @@ This is implemented as:
 
 The principle is the same, just compressed a little. The current source is replaced by the photodiode, mulit-channel opamps are used to save space, and $V_{out}$ passes through a standard Schottky diode before being connected to the ADC inputs.
 
-I used an 8ch ADC to independently connect each row for pseudo-switching of the detector outputs. High-side p-ch FET switches control V~cc~ for the TIAs.
+I used an 8ch ADC to independently connect each row for pseudo-switching of the detector outputs. High-side p-ch FET switches control V<sub>cc</sub> for the TIAs.
 
 <fig>
 <img src="img\v0.0.2\adc_mcu.png" alt="photodiode grid" style="background-color:white;" />
@@ -73,4 +73,4 @@ The 12-bit ADC converts output voltage into a digital signal referenced to a sta
 <img src="img\v0.0.2\stable_v.png" alt="photodiode grid" style="background-color:white;" />
 </fig>
 
-The MCU, an arduino nano, communicates with the ADC over I^2^C.
+The MCU, an arduino nano, communicates with the ADC over I<sup>2</sup>C.
