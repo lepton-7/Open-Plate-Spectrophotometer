@@ -16,3 +16,9 @@
  * @param column Column ID as int.
  */
 void enable_det(int column);
+
+/**
+ * @brief Disable power to all detector columns
+ *
+ */
+void disable_all(void);
